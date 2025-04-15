@@ -16,7 +16,6 @@ def test_trim():
 def test_trim_negative():
     assert string_utils.trim("123") == "123"
 
-> Mariia:
 @pytest.mark.parametrize('string, symbol, result', [
     ("корень", "к", "орень"),
     ("Женя", "н", "Жея"),
